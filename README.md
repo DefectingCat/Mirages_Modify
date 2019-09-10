@@ -110,5 +110,5 @@ background: white;
 
 2019-9-10：添加页脚裙边，修改相应的css。
 
-[1]: https://cdn.defectink.com/usr/uploads/2019/09/10/1568013294503.png-shuiyin
-[2]: https://cdn.defectink.com/usr/uploads/2019/09/10/1568014548234.png-shuiyin
+[1]: https://i.loli.net/2019/09/10/fY8imcrbktC3hUW.png
+[2]: https://i.loli.net/2019/09/10/mT5HdegobPkph6j.png
