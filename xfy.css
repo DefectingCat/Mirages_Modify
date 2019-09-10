@@ -1,0 +1,72 @@
+/**图片放大动画**/
+.post-content img {
+    border: 0;
+    max-width: 100%;
+    display: block;
+    margin: 1.25rem auto;
+    border-radius: 13px;
+    box-shadow: 1px 1px 8px 2px #888888;
+    transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-ms-transition:all 0.5s;
+}
+.post-content img:hover {
+    transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-ms-transition:all 0.5s;
+    transform: scale(1.05);
+}
+/**页脚裙子**/
+#dress {
+    background: url(https://cdn.defectink.com/images/footer.png) no-repeat 50%;
+    height: 360px;
+    z-index: 100;
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    pointer-events: none;
+}
+#dup {
+    padding: 6.6rem;
+    background: white;
+}
+body {
+    cursor: url(https://cdn.defectink.com/images/cursor/normal.png), auto;
+}
+/**鼠标样式**/
+#index a, #index a:link, #index a:visited {
+    text-decoration: none;
+    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
+}
+img[data-action="zoom"] {
+    cursor: url(https://cdn.defectink.com/images/cursor/check_img.png), pointer !important;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_img.png), -webkit-zoom-in !important;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_img.png), -moz-zoom-in;
+}
+p {
+    cursor: url(https://cdn.defectink.com/images/cursor/check_text.png), auto;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer;
+    text-decoration: underline;
+}
+code {
+    cursor: url(https://cdn.defectink.com/images/cursor/check_text.png), auto;
+}
+blockquote {
+    cursor: url(https://cdn.defectink.com/images/cursor/check_text.png), auto;
+}
+.post-content .content-tabs .content-tabs-head, .comment-content .content-tabs .content-tabs-head {
+    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
+}
+input[type="checkbox"] {
+    cursor: url(https://cdn.defectink.com/images/cursor/normal.png), auto;
+}
+li {
+    cursor: url(https://cdn.defectink.com/images/cursor/check_text.png), auto;
+}
+li.task-list-item {
+    cursor: url(https://cdn.defectink.com/images/cursor/normal.png), pointer !important;
+}
