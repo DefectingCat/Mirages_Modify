@@ -60,7 +60,6 @@ if(($this->is('post') || $this->is('page')) && Utils::hasValue($this->fields->js
 </div><!-- end #body -->
 <?php if(!Utils::isPjax() || !PJAX_ENABLED):?>
 </div>
-<div id="dup"></div>
 <!-- end #wrap -->
 <?php
     $copyright = 'Copyright &copy; '. date('Y') .' <a href="'. Mirages::$options->siteUrl .'">'. Mirages::$options->title .'</a>'; if (!Device::isPhone()) {$theme = "";}$theme = (Device::isPhone() ? '': 'Powered by <a href="http://typecho.org" target="_blank">Typecho</a> • ') . 'Theme <a href="https://get233.com/archives/mirages-intro.html" target="_blank">Mirages</a>';
