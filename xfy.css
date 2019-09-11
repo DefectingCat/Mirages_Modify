@@ -30,10 +30,10 @@
     padding: 6.6rem;
     background: white;
 }
+/**鼠标样式**/
 body {
     cursor: url(https://cdn.defectink.com/images/cursor/normal.png), auto;
 }
-/**鼠标样式**/
 #index a, #index a:link, #index a:visited {
     text-decoration: none;
     cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
@@ -69,4 +69,22 @@ li {
 }
 li.task-list-item {
     cursor: url(https://cdn.defectink.com/images/cursor/normal.png), pointer !important;
+}
+#comments .comment-list li.comment-body {
+    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
+}
+#comments a, #comments a:link, #comments a:visited {
+    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
+}
+textarea#textarea {
+    cursor: url(https://cdn.defectink.com/images/cursor/check_text.png), auto;
+}
+#comment-form #submit.button {
+    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
+}
+body.theme-white .OwO .OwO-logo {
+    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
+}
+#comments .comment-mail-me label {
+    cursor: url(https://cdn.defectink.com/images/cursor/normal.png), auto;
 }
