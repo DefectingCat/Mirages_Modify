@@ -46,9 +46,7 @@ p {
 }
 
 a:-webkit-any-link {
-    color: -webkit-link;
     cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer;
-    text-decoration: underline;
 }
 code {
     cursor: url(https://cdn.defectink.com/images/cursor/check_text.png), auto;
