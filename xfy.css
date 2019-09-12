@@ -46,7 +46,7 @@ p {
 }
 
 a:-webkit-any-link {
-    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer;
+    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
 }
 code {
     cursor: url(https://cdn.defectink.com/images/cursor/check_text.png), auto;
@@ -132,7 +132,7 @@ span.toc {
    -webkit-transition:.12s;transition:.12s;
 }
    /*ul使用插入圆点来模拟无序列表*/
-.row ul  li:before {
+.row ul li:before {
    position:absolute;
    content:'\2022';
    font-family:Arial;
