@@ -87,6 +87,9 @@ body.theme-white .OwO .OwO-logo {
 span.toc {
     cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
 }
+img.zoom-img {
+    cursor: url(https://cdn.defectink.com/images/cursor/check_img.png), pointer !important;
+}
 /* ol and ul*/
 .row a {
    background-color: transparent;
@@ -171,3 +174,7 @@ span.post-near-span:hover {
     text-shadow:4px 4px 1px rgba(0,0,0,.1);
     -webkit-transition:.1s;transition:0.3s
 }
+/*暂时保留方案*/
+/*@media (min-width: 768px) {
+    padding-left: 22.2%;
+}*/
