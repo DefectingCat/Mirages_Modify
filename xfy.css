@@ -87,6 +87,9 @@ body.theme-white .OwO .OwO-logo {
 #comments .comment-mail-me label {
     cursor: url(https://cdn.defectink.com/images/cursor/normal.png), auto;
 }
+span.toc {
+    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
+}
 /* ol and ul*/
 .row a {
    background-color: transparent;
