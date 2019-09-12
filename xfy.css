@@ -88,20 +88,20 @@ body.theme-white .OwO .OwO-logo {
     cursor: url(https://cdn.defectink.com/images/cursor/normal.png), auto;
 }
 /* ol and ul*/
-.container a {
+.row a {
    background-color: transparent;
    text-decoration: none;
    color: #00f4e8;
    transition: all .12s;
 }
-.container li:hover {
+.row li:hover {
    text-shadow: 3px 3px 2px #2f2f2f57;
 }
   /*ol使用css排序进行定义序号*/
-.container ol {
+.row ol {
    counter-reset: xxx 0 !important;
 }
-.container ol li:before {
+.row ol li:before {
    content: counter(xxx,decimal) "." !important;
    counter-increment: xxx 1 !important; 
    position:absolute;
@@ -117,13 +117,13 @@ body.theme-white .OwO .OwO-logo {
    text-shadow:4px 4px 1px rgba(0,0,0,.1);
    -webkit-transition:.5s;transition:.5s
 }
-.container ol li:hover:before {
+.row ol li:hover:before {
    -webkit-transform:scale(2);-ms-transform:scale(2);transform:scale(2);
    opacity:1;
    text-shadow:2px 2px 1px rgba(0,0,0,.1);
    -webkit-transition:.1s;transition:.1s
 }
-.container ol li {
+.row ol li {
    list-style:none;
    position:relative;
    padding:0 0 0 2.1em;
@@ -132,7 +132,7 @@ body.theme-white .OwO .OwO-logo {
    -webkit-transition:.12s;transition:.12s;
 }
    /*ul使用插入圆点来模拟无序列表*/
-.container ul  li:before {
+.row ul  li:before {
    position:absolute;
    content:'\2022';
    font-family:Arial;
@@ -147,13 +147,13 @@ body.theme-white .OwO .OwO-logo {
    text-shadow:4px 4px 1px rgba(0,0,0,.1);
    -webkit-transition:.5s;transition:.5s
 }
-.container ul li:hover:before {
+.row ul li:hover:before {
    -webkit-transform:scale(2);-ms-transform:scale(2);transform:scale(2);
    opacity:1;
    text-shadow:2px 2px 1px rgba(0,0,0,.1);
    -webkit-transition:.1s;transition:.1s
 }
-.container ul li {
+.row ul li {
    list-style:none;
    position:relative;
    padding:0 0 0 1.5em;
