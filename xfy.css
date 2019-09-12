@@ -25,11 +25,11 @@
 /*引入字体*/
 @font-face{
 	font-family:AxureHandwriting;
-	src:url('https://cdn.defectink.com/font/AxureHandwriting.woff');
+	src:url('https://cdn.defectink.com/font/AxureHandwriting.woff') format("woff");
 }
 @font-face{
 	font-family:ccyayuan;
-	src:url('https://cdn.defectink.com/font/yayuan.woff');
+	src:url('https://cdn.defectink.com/font/yayuan.woff') format("woff");
 }
 /*标题*/
 h1.blog-title {
@@ -43,9 +43,6 @@ h1.blog-title {
 h1.blog-title:hover {
     animation: shake-it .5s reverse infinite cubic-bezier(0.68,-.55,.27,1.55);
 	-webkit-animation: shake-it .5s reverse infinite cubic-bezier(0.68,-.55,.27,1.55);
-}
-.blog-title {
-    height: 1.4em;
 }
 /**图片放大动画**/
 .post-content img {
