@@ -121,7 +121,8 @@ body.theme-white .OwO .OwO-logo {
    -webkit-transform:scale(2);-ms-transform:scale(2);transform:scale(2);
    opacity:1;
    text-shadow:2px 2px 1px rgba(0,0,0,.1);
-   -webkit-transition:.1s;transition:.1s}
+   -webkit-transition:.1s;transition:.1s
+}
 .container ol li {
    list-style:none;
    position:relative;
@@ -150,7 +151,8 @@ body.theme-white .OwO .OwO-logo {
    -webkit-transform:scale(2);-ms-transform:scale(2);transform:scale(2);
    opacity:1;
    text-shadow:2px 2px 1px rgba(0,0,0,.1);
-   -webkit-transition:.1s;transition:.1s}
+   -webkit-transition:.1s;transition:.1s
+}
 .container ul li {
    list-style:none;
    position:relative;
