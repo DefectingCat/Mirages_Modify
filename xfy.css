@@ -33,7 +33,7 @@
 body {
     cursor: url(https://cdn.defectink.com/images/cursor/normal.png), auto;
 }
-#index a, #index a:link, #index a: {
+#index a, #index a:link, #index a:visited {
     cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
 }
 img[data-action="zoom"] {
