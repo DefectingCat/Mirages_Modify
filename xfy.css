@@ -44,6 +44,13 @@ h1.blog-title:hover {
     animation: shake-it .5s reverse infinite cubic-bezier(0.68,-.55,.27,1.55);
 	-webkit-animation: shake-it .5s reverse infinite cubic-bezier(0.68,-.55,.27,1.55);
 }
+/*文章标题*/
+.blog-title-post {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    margin-bottom: .75rem;
+    font-weight: 300;
+}
 /**图片放大动画**/
 .post-content img {
     border: 0;
@@ -209,6 +216,9 @@ img.zoom-img {
    margin:0 0 0 10px;
    text-shadow:0px 0px 0px rgba(0,0,0,.1);
    -webkit-transition:.12s;transition:.12s;
+}
+li.btn.btn-primary.next {
+    font-size: 0;
 }
 /*上下篇的动画*/
 span.post-near-span {
