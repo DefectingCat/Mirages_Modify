@@ -1,4 +1,4 @@
-/*简单动画*/
+/*抖动动画*/
 @keyframes shake-it{
     0%{
         text-shadow: 0 0 rgba(0, 255, 255, .5), 0 0 rgba(255, 0, 0, .5);
@@ -11,6 +11,15 @@
     }
     100%{
         text-shadow: 3px 0 rgba(0, 255, 255, .5), 5px 0 rgba(255, 0, 0, .5);
+    }
+}
+/*渐变动画*/
+@-webkit-keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+        -webkit-filter: hue-rotate(-360deg);
     }
 }
 /**图片放大动画**/
