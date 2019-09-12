@@ -71,7 +71,16 @@ if(($this->is('post') || $this->is('page')) && Utils::hasValue($this->fields->js
     }
 ?>
 <footer id="footer" role="contentinfo">
-    <div id="dress"></div>
+<div id="dress"></div>
+<script type="text/javascript">
+	    if (screen && screen.width > 480) {
+            
+    }
+				else {
+                document.getElementById("dress").style.height = "0px";
+                document.getElementById("wrap").style.padding = "0";
+			}
+</script>
     <div class="container">
         <?php echo $copyright;?>
     </div>
