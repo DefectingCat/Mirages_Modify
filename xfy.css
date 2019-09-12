@@ -87,3 +87,75 @@ body.theme-white .OwO .OwO-logo {
 #comments .comment-mail-me label {
     cursor: url(https://cdn.defectink.com/images/cursor/normal.png), auto;
 }
+/* ol and ul*/
+.container a {
+   background-color: transparent;
+   text-decoration: none;
+   color: #00f4e8;
+   transition: all .12s;
+}
+.container li:hover {
+   text-shadow: 3px 3px 2px #2f2f2f57;
+}
+  /*ol使用css排序进行定义序号*/
+.container ol {
+   counter-reset: xxx 0 !important;
+}
+.container ol li:before {
+   content: counter(xxx,decimal) "." !important;
+   counter-increment: xxx 1 !important; 
+   position:absolute;
+   font-family:'Comic Sans MS','Open Sans','Microsoft Yahei','Microsoft Yahei',-apple-system,sans-serif !important;
+   color:#000;
+   top:0;
+   left:0;
+   text-align:center;
+   font-size:1.2em;
+   opacity:.5;
+   /*使用行高来调整前缀的位置*/
+   line-height:1.54;
+   text-shadow:4px 4px 1px rgba(0,0,0,.1);
+   -webkit-transition:.5s;transition:.5s
+}
+.container ol li:hover:before {
+   -webkit-transform:scale(2);-ms-transform:scale(2);transform:scale(2);
+   opacity:1;
+   text-shadow:2px 2px 1px rgba(0,0,0,.1);
+   -webkit-transition:.1s;transition:.1s}
+.container ol li {
+   list-style:none;
+   position:relative;
+   padding:0 0 0 2.1em;
+   margin:0 0 0 10px;
+   text-shadow:0px 0px 0px rgba(0,0,0,.1);
+   -webkit-transition:.12s;transition:.12s;
+}
+   /*ul使用插入圆点来模拟无序列表*/
+.container ul  li:before {
+   position:absolute;
+   content:'\2022';
+   font-family:Arial;
+   color:#000;
+   top:0;
+   left:0;
+   text-align:center;
+   font-size:1.5em;
+   opacity:.5;
+   /*使用行高来调整前缀的位置*/
+   line-height:1.35;
+   text-shadow:4px 4px 1px rgba(0,0,0,.1);
+   -webkit-transition:.5s;transition:.5s
+}
+.container ul li:hover:before {
+   -webkit-transform:scale(2);-ms-transform:scale(2);transform:scale(2);
+   opacity:1;
+   text-shadow:2px 2px 1px rgba(0,0,0,.1);
+   -webkit-transition:.1s;transition:.1s}
+.container ul li {
+   list-style:none;
+   position:relative;
+   padding:0 0 0 1.5em;
+   margin:0 0 0 10px;
+   text-shadow:0px 0px 0px rgba(0,0,0,.1);
+   -webkit-transition:.12s;transition:.12s;
+}
