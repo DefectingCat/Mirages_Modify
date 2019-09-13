@@ -234,3 +234,7 @@ span.post-near-span:hover {
 /*@media (min-width: 768px) {
     padding-left: 22.2%;
 }*/
+/*还是换了字体*/
+body, button, input, optgroup, select, textarea {
+    font-family: 'ccyayuan','Mirages Custom', 'Merriweather', 'Open Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'Segoe UI Emoji', 'Segoe UI Symbol', Helvetica, Arial, sans-serif;
+}
