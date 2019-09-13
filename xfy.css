@@ -32,6 +32,18 @@
 	src:url('https://cdn.defectink.com/font/yayuan.woff') format("woff");
 }
 /*标题*/
+.blog-title-mo {
+    font-size: 4em;
+    margin: auto;
+    text-shadow: 1px 1px 0 #ff3f1a, -1px -1px 0 #00a7e0;
+    font-family: AxureHandwriting !important;
+    position: relative;
+    color: white;
+}
+.blog-title-mo:hover {
+    animation: shake-it .5s reverse infinite cubic-bezier(0.68,-.55,.27,1.55);
+	-webkit-animation: shake-it .5s reverse infinite cubic-bezier(0.68,-.55,.27,1.55);
+}
 h1.blog-title {
     font-size: 7em;
     margin: auto;
