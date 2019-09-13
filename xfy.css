@@ -83,6 +83,7 @@ h1.blog-title:hover {
 }
 /**页脚裙子**/
 #dress {
+    background: url(https://cdn.defectink.com/images/footer.png) no-repeat 50%;
     height: 360px;
     z-index: 100;
     position: absolute;
