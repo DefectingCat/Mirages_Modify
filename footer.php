@@ -62,7 +62,7 @@ if(($this->is('post') || $this->is('page')) && Utils::hasValue($this->fields->js
 </div>
 <!-- end #wrap -->
 <?php
-    $copyright = 'Copyright &copy; '. date('Y') .' <a href="'. Mirages::$options->siteUrl .'">'. Mirages::$options->title .'</a>'; if (!Device::isPhone()) {$theme = "";}$theme = (Device::isPhone() ? '': 'Powered by <a href="http://typecho.org" target="_blank">Typecho</a> • ') . 'Theme <a href="https://get233.com/archives/mirages-intro.html" target="_blank">Mirages</a>';
+    $copyright = 'Copyright &copy; '. date('Y') .' <a href="'. Mirages::$options->siteUrl .'">'. Mirages::$options->title .'</a>'; if (!Device::isPhone()) {$theme = "";}$theme = (Device::isPhone() ? '': 'Powered by <a href="http://typecho.org" target="_blank">Typecho</a> • ') . 'Theme <a href="https://get233.com/archives/mirages-intro.html" target="_blank">Mirages</a> • ' . 'Modify <a href="https://www.defectink.com/defect/229.html" target="_blank">Defectink</a>';
     if (Utils::hasValue(Mirages::$options->beian)) {
         $beiAn = "<a href=\"http://beian.miit.gov.cn\" target='_blank'> ".Mirages::$options->beian . "</a>";
         $copyright = "<p>{$copyright}</p><p>{$beiAn} • {$theme}</p>";
