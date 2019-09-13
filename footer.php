@@ -71,8 +71,7 @@ if(($this->is('post') || $this->is('page')) && Utils::hasValue($this->fields->js
     }
 ?>
 <footer id="footer" role="contentinfo">
-<div id="dress">
-</div>
+<div id="dress"></div>
 <!-- 自适应 -->
 <script type="text/javascript">
 	    if (screen && screen.width > 480) {
