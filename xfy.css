@@ -31,7 +31,7 @@
 	font-family:ccyayuan;
 	src:url('https://cdn.defectink.com/font/yayuan.woff') format("woff");
 }
-/*标题*/
+/*标题以及自适应*/
 .blog-title-mo {
     font-size: 4em;
     margin: auto;
@@ -83,7 +83,6 @@ h1.blog-title:hover {
 }
 /**页脚裙子**/
 #dress {
-    background: url(https://cdn.defectink.com/images/footer.png) no-repeat 50%;
     height: 360px;
     z-index: 100;
     position: absolute;
