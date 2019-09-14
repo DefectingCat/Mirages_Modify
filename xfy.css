@@ -232,7 +232,11 @@ a#toggle-post-qr-code {
    text-shadow:0px 0px 0px rgba(0,0,0,.1);
    -webkit-transition:.12s;transition:.12s;
 }
+/*上下页按钮不受ul and ol影响*/
 li.btn.btn-primary.next {
+    font-size: 0;
+}
+li.btn.btn-primary.prev {
     font-size: 0;
 }
 /*上下篇的动画*/
