@@ -265,3 +265,10 @@ a.btn, .btn>a:hover {
 img.biaoqing {
     box-shadow: 0px 0px 0px 0px #888888 !important;
 }
+/*小改评论框*/
+#comment-form textarea {
+    border-radius: 0.8125rem;
+    background: url(https://cdn.defectink.com/images/textarea.gif) no-repeat;
+    background-position: right;
+    background-size: contain;
+}
