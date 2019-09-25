@@ -69,7 +69,7 @@ h1.blog-title:hover {
     max-width: 100%;
     display: block;
     margin: 1.25rem auto;
-    border-radius: 13px;
+    border-radius: 0.8rem;
     box-shadow: 1px 1px 8px 2px #888888;
     transition:all 0.5s;
 	-webkit-transition:all 0.5s;
@@ -281,4 +281,7 @@ blockquote:hover {
 }
 .post-content blockquote, .comment-content blockquote {
     transition: all 0.8s;
+}
+.post-content pre, .comment-content pre {
+    border-radius: .8rem;
 }
