@@ -283,5 +283,5 @@ blockquote:hover {
     transition: all 0.8s;
 }
 .post-content pre, .comment-content pre {
-    border-radius: .8rem;
+    border-radius: .8rem !important;
 }
