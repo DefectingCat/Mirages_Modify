@@ -272,3 +272,13 @@ img.biaoqing {
     background-position: right;
     background-size: contain;
 }
+/*引用块*/
+blockquote:hover {
+    border-left: .25rem solid #24c6cb;
+    transition: all 0.8s;
+    color: #333;
+    text-shadow: 4px 4px 1px rgba(0,0,0,.1);
+}
+.post-content blockquote, .comment-content blockquote {
+    transition: all 0.8s;
+}
