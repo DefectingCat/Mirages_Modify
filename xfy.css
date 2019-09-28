@@ -285,3 +285,9 @@ blockquote:hover {
 .post-content pre, .comment-content pre {
     border-radius: .8rem !important;
 }
+/*不起眼的细节动画*/
+.post-content hr:hover {
+    background: #66ccff repeating-linear-gradient(45deg, #fff, #fff 4px, transparent 4px, transparent 8px);
+    text-shadow: 3px 3px 2px #2f2f2f57;
+    transition: all .8s;
+}
