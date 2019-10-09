@@ -27,10 +27,10 @@
 	font-family:AxureHandwriting;
 	src:url('https://cdn.defectink.com/font/AxureHandwriting.woff') format("woff");
 }
-@font-face{
+/* @font-face{
 	font-family:ccyayuan;
 	src:url('https://cdn.defectink.com/font/yayuan.woff') format("woff");
-}
+} */
 /*标题以及自适应*/
 .blog-title-mo {
     font-size: 4em;
@@ -253,10 +253,10 @@ span.post-near-span:hover {
 /*@media (min-width: 768px) {
     padding-left: 22.2%;
 }*/
-/*还是换了字体*/
+/*还是换了字体
 body, button, input, optgroup, select, textarea {
     font-family: 'ccyayuan','Mirages Custom', 'Merriweather', 'Open Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'Segoe UI Emoji', 'Segoe UI Symbol', Helvetica, Arial, sans-serif !important;
-}
+}*/
 /*首页按钮动画*/
 a.btn, .btn>a:hover {
     padding: .5625rem 5.8125rem;
