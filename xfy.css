@@ -96,67 +96,67 @@ h1.blog-title:hover {
 }
 /**鼠标样式**/
 body {
-    cursor: url(https://cdn.defectink.com/images/cursor/normal.png), auto;
+    cursor: url(https://cdn.defectink.com/images/cursor/normal_1.cur), auto;
 }
 #index a, #index a:link, #index a:visited {
-    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_1.cur), pointer !important;
 }
 img[data-action="zoom"] {
-    cursor: url(https://cdn.defectink.com/images/cursor/check_img.png), pointer !important;
-    cursor: url(https://cdn.defectink.com/images/cursor/check_img.png), -webkit-zoom-in !important;
-    cursor: url(https://cdn.defectink.com/images/cursor/check_img.png), -moz-zoom-in;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_img_1.cur), pointer !important;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_img_1.cur), -webkit-zoom-in !important;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_img_1.cur), -moz-zoom-in;
 }
 p {
-    cursor: url(https://cdn.defectink.com/images/cursor/check_text.png), auto;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_text_1.cur), auto;
 }
 
 a:-webkit-any-link {
-    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_1.cur), pointer !important;
 }
 code {
-    cursor: url(https://cdn.defectink.com/images/cursor/check_text.png), auto;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_text_1.cur), auto;
 }
 blockquote {
-    cursor: url(https://cdn.defectink.com/images/cursor/check_text.png), auto;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_text_1.cur), auto;
 }
 .post-content .content-tabs .content-tabs-head, .comment-content .content-tabs .content-tabs-head {
-    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_1.cur), pointer !important;
 }
 input[type="checkbox"] {
-    cursor: url(https://cdn.defectink.com/images/cursor/normal.png), auto;
+    cursor: url(https://cdn.defectink.com/images/cursor/normal_1.cur), auto;
 }
 li {
-    cursor: url(https://cdn.defectink.com/images/cursor/check_text.png), auto;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_text_1.cur), auto;
 }
 li.task-list-item {
-    cursor: url(https://cdn.defectink.com/images/cursor/normal.png), pointer !important;
+    cursor: url(https://cdn.defectink.com/images/cursor/normal_1.cur), pointer !important;
 }
 #comments .comment-list li.comment-body {
-    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_1.cur), pointer !important;
 }
 #comments a, #comments a:link, #comments a:visited {
-    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_1.cur), pointer !important;
 }
 textarea#textarea {
-    cursor: url(https://cdn.defectink.com/images/cursor/check_text.png), auto;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_text_1.cur), auto;
 }
 #comment-form #submit.button {
-    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_1.cur), pointer !important;
 }
 body.theme-white .OwO .OwO-logo {
-    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_1.cur), pointer !important;
 }
 #comments .comment-mail-me label {
-    cursor: url(https://cdn.defectink.com/images/cursor/normal.png), auto;
+    cursor: url(https://cdn.defectink.com/images/cursor/normal_1.cur), auto;
 }
 span.toc {
-    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_1.cur), pointer !important;
 }
 img.zoom-img {
-    cursor: url(https://cdn.defectink.com/images/cursor/check_img.png), pointer !important;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_img_1.cur), pointer !important;
 }
 a#toggle-post-qr-code {
-    cursor: url(https://cdn.defectink.com/images/cursor/check.png), pointer !important;
+    cursor: url(https://cdn.defectink.com/images/cursor/check_1.cur), pointer !important;
 }
 /* ol and ul*/
 .row a {
@@ -265,12 +265,13 @@ a.btn, .btn>a:hover {
 img.biaoqing {
     box-shadow: 0px 0px 0px 0px #888888 !important;
 }
-/*小改评论框*/
-#comment-form textarea {
-    border-radius: 0.8125rem;
+/*小改评论框
     background: url(https://cdn.defectink.com/images/textarea.gif) no-repeat;
     background-position: right;
     background-size: contain;
+*/
+#comment-form textarea {
+    border-radius: 0.8125rem;
 }
 /*引用块*/
 blockquote:hover {
