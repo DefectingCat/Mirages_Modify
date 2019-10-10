@@ -158,6 +158,12 @@ img.zoom-img {
 a#toggle-post-qr-code {
     cursor: url(https://cdn.defectink.com/images/cursor/check_1.cur), pointer !important;
 }
+.collapse-header {
+    cursor: url(https://cdn.defectink.com/images/cursor/check_1.cur), pointer !important;
+}
+p.title {
+    cursor: url(https://cdn.defectink.com/images/cursor/check_1.cur), pointer !important;
+}
 /* ol and ul*/
 .row a {
    background-color: transparent;
