@@ -263,10 +263,11 @@ span.post-near-span:hover {
 body, button, input, optgroup, select, textarea {
     font-family: 'ccyayuan','Mirages Custom', 'Merriweather', 'Open Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'Segoe UI Emoji', 'Segoe UI Symbol', Helvetica, Arial, sans-serif !important;
 }*/
-/*首页按钮动画*/
+/*首页按钮动画
 a.btn, .btn>a:hover {
     padding: .5625rem 5.8125rem;
 }
+*/
 /*文章内的表情不受图片css影响*/
 img.biaoqing {
     box-shadow: 0px 0px 0px 0px #888888 !important;
